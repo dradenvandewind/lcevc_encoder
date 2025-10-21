@@ -1,0 +1,11 @@
+# Configuration
+meson setup builddir
+
+# Compilation
+meson compile -C builddir
+
+# Installation
+sudo meson install -C builddir
+
+# Nettoyage
+meson compile -C builddir --clean

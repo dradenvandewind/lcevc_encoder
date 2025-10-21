@@ -1,0 +1,2 @@
+option('dev', type : 'boolean', value : false, description : 'Install development files')
+option('tests', type : 'boolean', value : true, description : 'Build unit tests')
